@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+
+
+:root {
+    --cor-preta: #000;
+    --cor-branca: #FFF;
+    --cor-cinza: #ddd;
+    --fonte-principal: 'Josefin Sans';
+}
+
+
+body {
+    font-family: var(--fonte-principal);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.pai__container {
+    display: block;
+    margin: auto;
+    margin-top: 15%;
+    width: 80%;
+    height: 50vh;
+    background-color: var(--cor-preta);
+}
+
