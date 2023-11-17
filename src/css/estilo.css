@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 
 :root {
     --cor-preta: #000;
     --cor-branca: #FFF;
     --cor-cinza: #ddd;
-    --fonte-principal: 'Josefin Sans';
+    --fonte-alternativa: 'Poppins';
+    --azul-degrade: linear-gradient(9000deg, #002F52 35.49%, #326589 165.37%);
 }
 
 
 body {
-    font-family: var(--fonte-principal);
+    font-family: var(--fonte-alternativa);
 }
 
 * {
@@ -20,14 +20,36 @@ body {
     box-sizing: border-box;
 }
 
-
-
 .pai__container {
-    display: block;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
     margin-top: 15%;
     width: 80%;
     height: 50vh;
-    background-color: var(--cor-preta);
+    background: var(--azul-degrade);
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.container__conteudo {
+    
+}
+
+.titulo {
+    color: var(--cor-cinza);
+    font-family: var(--fonte-principal);
+    padding: 2em 0em 0em 0em;
+    font-size: 54px;
+}
+
+.container__texto {
+    color: var(--cor-cinza);
+    font-family: var(--fonte-principal);
 }
 
